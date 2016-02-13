@@ -1,0 +1,5 @@
+offer:
+    type: rest
+    prefix: /api
+    resource: HotelsBundle\Controller\OfferController
+    name_prefix: api_offer_

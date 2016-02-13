@@ -1,0 +1,4 @@
+hotels:
+    type: rest
+    resource: "@HotelsBundle/Resources/config/routing.yml"
+    prefix:   /

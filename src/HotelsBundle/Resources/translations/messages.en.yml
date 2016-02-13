@@ -1,0 +1,4 @@
+offer.date.not_blank: The Date should not be blank.
+offer.date.format: The Date is invalid format.
+room.identifier.unique: The Identifer of Room should be unique.
+offer.id.not_found: The offer is not found.

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>addAction for Hotels!</title>
+    </head>
+    <body>
+    	<h1 class="offer.date">{{ date }}</h1>
+        <ul class="rooms">
+        	{% for item in data %}
+        	 	<li class="name">{{ item.relationships.room.name }}</li>
+            {% endfor %}
+           
+        </ul>
+    </body>
+</html>

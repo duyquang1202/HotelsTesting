@@ -1,0 +1,13 @@
+default:
+    formatters:
+        pretty: true
+    suites: 
+        offer:
+            contexts:
+                - OfferContext:
+                    parameters:
+                        domain: http://hotels.local
+    extensions:
+        Behat\Symfony2Extension:
+            kernel:
+                env : dev

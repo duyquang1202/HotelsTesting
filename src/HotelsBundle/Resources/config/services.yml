@@ -1,0 +1,17 @@
+services:
+    hotels.room_finder: 
+        class: HotelsBundle\Repository\RoomRepository
+        factory_service: doctrine
+        factory_method: getRepository
+        arguments: [ HotelsBundle\Entity\Room ]
+    hotels.offer.repository:
+        class: HotelsBundle\Repository\OfferRepository
+        factory_service: doctrine
+        factory_method: getRepository
+        arguments: [ HotelsBundle\Entity\Offer ]
+    hotels.room.repository: 
+        class: HotelsBundle\Repository\RoomRepository
+        factory_service: doctrine
+        factory_method: getRepository
+        arguments: [ HotelsBundle\Entity\Room ]
+    
