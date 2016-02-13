@@ -24,7 +24,7 @@ class OfferController extends FOSRestController implements ClassResourceInterfac
      * @Get("/offers/find", name = "find", options = {"method_prefix" = false})
      * @QueryParam(name="date", description="date to find rooms", nullable=false)
      * @param ParamFetcherInterface $paramFetcher param fetcher service
-     * @author Quang Vo <quang.vo@audiencemedia.com>
+     * @author Quang Vo <duyquang1202@gmail.com>
      * @return array
      */
     public function cgetAction(ParamFetcherInterface $paramFetcher)
@@ -46,7 +46,7 @@ class OfferController extends FOSRestController implements ClassResourceInterfac
      * @Post("/offers", name = "create", options = {"method_prefix" = false})
      *
      * @param Request $request
-     *            param request to create new catalog
+     *            param request to add offers
      * @author Quang Vo <duyquang1202@gmail.com>
      * @return array
      */
